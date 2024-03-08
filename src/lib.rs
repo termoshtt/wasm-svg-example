@@ -8,7 +8,7 @@ pub fn run() -> Result<(), JsValue> {
 
     let svg = document.create_element_ns(Some("http://www.w3.org/2000/svg"), "svg")?;
     svg.set_attribute("width", "100")?;
-    svg.set_attribute("hight", "100")?;
+    svg.set_attribute("height", "100")?;
     svg.set_attribute("viewBox", "0 0 100 100")?;
 
     let circle = document.create_element_ns(Some("http://www.w3.org/2000/svg"), "circle")?;
